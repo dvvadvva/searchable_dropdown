@@ -532,7 +532,7 @@ class _SearchableDropdownState<T> extends State<SearchableDropdown<T>> {
       );
     }
     final EdgeInsetsGeometry padding = ButtonTheme.of(context).alignedDropdown
-        ? _kAlignedButtonPadding
+        ? _kUnalignedButtonPadding //_kAlignedButtonPadding
         : _kUnalignedButtonPadding;
 
     Widget clickable = InkWell(

@@ -112,7 +112,7 @@ class _MyAppState extends State<MyApp> {
         items: items,
         value: selectedValue,
         hint: "Select one",
-        label: 'test label',
+        //label: 'test label',
         searchHint: "Select one",
         onChanged: (value) {
           setState(() {
